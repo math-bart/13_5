@@ -11,7 +11,6 @@ function getOSinfo() {
   var release = os.release();
   var cpu = os.cpus()[0].model;
   var userInfo = os.userInfo();
-  console.log('hello'.green);
   console.log('System:'.gray, type);
   console.log('Release:'.red, release);
   console.log('CPU model:'.cyan, cpu);
